@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.0 on win32)" generated="20200112 17:05:17.118" rpa="false">
+<suite id="s1" name="TC 001" source="C:\Users\Andre\PycharmProjects\RobotAutomation\Test Cases\TC_001.robot">
+<kw name="Before Each Test Suite" type="setup">
+<msg timestamp="20200112 17:05:20.790" level="FAIL">No keyword with name 'Before Each Test Suite' found.</msg>
+<status status="FAIL" starttime="20200112 17:05:20.790" endtime="20200112 17:05:20.790"></status>
+</kw>
+<test id="s1-t1" name="TC_001 Variable Test">
+<tags>
+<tag>ALL_TC</tag>
+<tag>Smoke</tag>
+</tags>
+<status status="FAIL" starttime="20200112 17:05:20.790" endtime="20200112 17:05:20.790" critical="yes">Parent suite setup failed:
+No keyword with name 'Before Each Test Suite' found.</status>
+</test>
+<test id="s1-t2" name="${password}=">
+<tags>
+<tag>ALL_TC</tag>
+<tag>DFLT</tag>
+</tags>
+<status status="FAIL" starttime="20200112 17:05:20.790" endtime="20200112 17:05:20.790" critical="yes">Parent suite setup failed:
+No keyword with name 'Before Each Test Suite' found.</status>
+</test>
+<test id="s1-t3" name="TC_002 Variable Test">
+<tags>
+<tag>ALL_TC</tag>
+<tag>Smoke Sanity</tag>
+</tags>
+<status status="FAIL" starttime="20200112 17:05:20.805" endtime="20200112 17:05:20.805" critical="yes">Parent suite setup failed:
+No keyword with name 'Before Each Test Suite' found.</status>
+</test>
+<kw name="After Each Test Suite" type="teardown">
+<msg timestamp="20200112 17:05:20.821" level="FAIL">No keyword with name 'After Each Test Suite' found.</msg>
+<status status="FAIL" starttime="20200112 17:05:20.821" endtime="20200112 17:05:20.821">No keyword with name 'After Each Test Suite' found.</status>
+</kw>
+<status status="FAIL" starttime="20200112 17:05:17.149" endtime="20200112 17:05:20.821">Suite setup failed:
+No keyword with name 'Before Each Test Suite' found.
+
+Also suite teardown failed:
+No keyword with name 'After Each Test Suite' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3">Critical Tests</stat>
+<stat pass="0" fail="3">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="3">ALL_TC</stat>
+<stat pass="0" fail="1">DFLT</stat>
+<stat pass="0" fail="1">Smoke</stat>
+<stat pass="0" fail="1">Smoke Sanity</stat>
+</tag>
+<suite>
+<stat pass="0" fail="3" id="s1" name="TC 001">TC 001</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200112 17:05:17.337" level="ERROR">Error in file 'C:\Users\Andre\PycharmProjects\RobotAutomation\Test Cases\TC_001.robot': Test library '..\..\ExternalKeywords\Locators.py' does not exist.</msg>
+<msg timestamp="20200112 17:05:20.774" level="ERROR">Error in file 'C:\Users\Andre\PycharmProjects\RobotAutomation\Test Cases\TC_001.robot': Resource file '..\..\Resources\Resources1.robot' does not exist.</msg>
+</errors>
+</robot>
